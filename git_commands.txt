@@ -1,0 +1,66 @@
+cd documents
+
+git clone https://github.com/Karolina-Nedvedova/nedvedova_skola.git
+
+cd nedvedova_skola
+
+$ touch git_commands.txt
+
+$ git checkout -b develop
+
+$ echo "Test soubor" > test.txt
+
+$ git add test.txt
+
+$ git commit -m "Pridani tst.txt ve vetvi develop"
+
+
+$ git config --global user.name "Karolina Nedvedova"
+$ git config --global user.email "nedvedova.karolina04seznam.cz"
+
+$ git commit -m "Pridani tst.txt ve vetvi develop"
+
+$ git checkout main
+
+$ git add README.md
+
+
+$ git commit -m "Pridani README"
+
+
+$ echo "Karolina Nedvedova" > username.txt
+
+$ echo "CVUT FBMI" >> test.txt
+
+$ git add username.txt test.txt
+
+$ git commint -m "Pridani username a uprava test.txt"
+
+$ echo "test.txt" > .gitignore
+
+$ git add .gitignore
+
+
+$ git push origin main
+
+$ git push origin develop
+
+$ echo "F7PBKSFI" > README.md
+
+$ git add README.md
+
+
+$ git commit -m "Uprava README"
+
+$ git push origin main
+
+$ git checkout develop
+
+$ echo "F7PBKSFI" > README.md
+
+$ git add README.md
+
+
+$ git commit -m "Uprava README"
+
+$ git push origin develop
